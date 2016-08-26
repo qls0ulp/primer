@@ -16,5 +16,11 @@
   },
   "bugs": {
     "url": "https://github.com/ryanmorr/template.html/issues"
+  },
+  "scripts": {
+    "test": "htmlhint template.html"
+  },
+  "devDependencies": {
+    "htmlhint": "^0.9.13"
   }
 }
