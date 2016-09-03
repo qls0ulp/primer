@@ -7,7 +7,7 @@
     <meta charset="utf-8">
 
     <!-- Tell IE to use the latest rendering engine: https://msdn.microsoft.com/en-us/library/jj676915(v=vs.85).aspx
-    Can be removed if sent via HTTP header or if only supporting the latest browsers (IE 11 and/or Edge) -->
+    This can probably be removed if only supporting the latest browsers (IE 11 and/or Edge) -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Define the viewport for mobile devices:
@@ -21,6 +21,10 @@
 
     <!-- Document description (less than 160 characters) -->
     <meta name="description" content="Page description">
+
+    <!-- Improve performance by resolving hostnames up front -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.cdn.com">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
