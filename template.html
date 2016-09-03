@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- Specify language: http://www.w3.org/TR/html401/struct/dirlang.html#h-8.1 -->
-<html lang="en">
+<html class="no-js" lang="en">
 <!-- Enable Open Graph: http://ogp.me/ -->
 <head prefix="og: http://ogp.me/ns#">
     <!-- Set the character encoding for the document -->
@@ -40,6 +40,9 @@
     <meta property="og:site_name" content="Site name" />
     <!-- Facebook image must be at least 600x315px -->
     <meta property="og:image" content="http://example.com/image.jpg" />
+
+    <!-- Enable styling differentation between JavaScript and non-JavaScript enabled browsers -->
+    <script>(function (e) { e.className = e.className.replace('no-js', 'js'); }(document.documentElement));</script>
 </head>
 
 <body>
