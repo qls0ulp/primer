@@ -1,5 +1,10 @@
 {
 	"name": "Site name",
+	"short_name": "Site name",
+	"start_url": ".",
+	"display": "browser",
+	"background_color": "#fff",
+	"description": "Site description",
 	"icons": [
 		{
 			"src": "images\/android-chrome-192x192.png",
