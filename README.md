@@ -1,5 +1,7 @@
 # Primer
 
+[![GitHub version](https://badge.fury.io/gh/ryanmorr%2Fprimer.svg)](https://badge.fury.io/gh/ryanmorr%2Fprimer) [![Build Status](https://travis-ci.org/ryanmorr/primer.svg)](https://travis-ci.org/ryanmorr/primer)
+
 > A basic HTML5 boilerplate for websites and web apps based on best practices
 
 ## Features
