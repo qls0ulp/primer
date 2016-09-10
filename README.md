@@ -1,3 +1,3 @@
 # Primer
 
-> An HTML5 template based on best practices
+> A basic HTML5 boilerplate for websites and web apps based on best practices
