@@ -2,6 +2,11 @@
 
 [![GitHub version](https://badge.fury.io/gh/ryanmorr%2Fprimer.svg)](https://badge.fury.io/gh/ryanmorr%2Fprimer) [![Build Status](https://travis-ci.org/ryanmorr/primer.svg)](https://travis-ci.org/ryanmorr/primer)
 
+[![Version Badge][version-image]][project-url]
+[![Build Status][build-image]][build-url]
+[![Dependencies][dependencies-image]][project-url]
+[![License][license-image]][license-url]
+
 > A basic HTML5 boilerplate for websites and web apps based on best practices
 
 ## Features
@@ -22,3 +27,11 @@
 ## License
 
 This project is dedicated to the public domain as described by the [Unlicense](http://unlicense.org/).
+
+[project-url]: https://github.com/ryanmorr/primer
+[version-image]: https://badge.fury.io/gh/ryanmorr%2Fprimer.svg
+[build-url]: https://travis-ci.org/ryanmorr/primer
+[build-image]: https://travis-ci.org/ryanmorr/primer.svg
+[dependencies-image]: https://david-dm.org/ryanmorr/primer.svg
+[license-image]: https://img.shields.io/badge/license-Unlicense-blue.svg
+[license-url]: UNLICENSE
