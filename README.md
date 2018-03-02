@@ -1,7 +1,5 @@
 # Primer
 
-[![GitHub version](https://badge.fury.io/gh/ryanmorr%2Fprimer.svg)](https://badge.fury.io/gh/ryanmorr%2Fprimer) [![Build Status](https://travis-ci.org/ryanmorr/primer.svg)](https://travis-ci.org/ryanmorr/primer)
-
 [![Version Badge][version-image]][project-url]
 [![Build Status][build-image]][build-url]
 [![Dependencies][dependencies-image]][project-url]
