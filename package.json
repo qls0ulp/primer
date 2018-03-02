@@ -1,7 +1,7 @@
 {
   "name": "primer",
   "description": "A basic HTML5 boilerplate for websites and web apps based on best practices",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "Unlicense",
   "homepage": "https://github.com/ryanmorr/primer",
   "main": "src/index.html",
