@@ -19,45 +19,60 @@
     <!-- Allows control over where resources are loaded from -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
+    <!-- Improve performance by resolving hostnames up front -->
+    <!-- Add hostname of CDN if applicable -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+
+
     <!-- Document title -->
     <title>Page title</title>
 
-    <!-- Document description (less than 160 characters) -->
+    <!-- Document description (less than 150 characters) -->
     <meta name="description" content="Page description">
 
-    <!-- Disable tap highlight on IE -->
-    <meta name="msapplication-tap-highlight" content="no">
+
+
+    <!-- Name of web application (only should be used if the website is used as an app) -->
+    <meta name="application-name" content="Application Name">
+
+    <!-- Color the status bar on mobile devices (Chrome, Firefox OS, and Opera) -->
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.json">
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Site name">
+    <!-- Tile appearance for the Windows Metro UI on Windows 8 and 10 -->
+    <meta name="msapplication-config" content="ieconfig.xml">
 
-    <!-- Add to homescreen for Safari on iOS -->
+    <!-- Add to homescreen (Android) -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Enable standalone (full-screen) mode (iOS) -->
     <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Status bar appearance (has no effect unless standalone mode is enabled) (iOS) -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Launch Icon Title (iOS) -->
     <meta name="apple-mobile-web-app-title" content="Site name">
 
-    <!-- Icons for all browsers -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <!-- Launch Screen Image (iOS) -->
+    <link rel="apple-touch-startup-image" href="images/apple-touch-launch-icon.png">
+
+    <!-- Icon in the highest resolution we need it for -->
+    <link rel="icon" sizes="192x192" href="images/icon.png">
+
+    <!-- Apple touch icon (reuse 192px icon.png) (iOS) -->
+    <link rel="apple-touch-icon" href="images/icon.png">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Pinned tab for Safari 9 on Mac OS X El Capitan -->
     <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#2b5797">
 
-    <!-- Tile appearance for the Windows Metro UI on Windows 8 and 10 -->
-    <meta name="msapplication-config" content="ieconfig.xml">
-
-    <!-- Color the status bar on mobile devices -->
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Improve performance by resolving hostnames up front -->
-    <!-- Add hostname of CDN if applicable -->
-    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary">
@@ -69,6 +84,8 @@
     <!-- Twitter summary card images must be at least 200x200px -->
     <meta name="twitter:image" content="http://www.example.com/image.jpg">
 
+
+
     <!-- Open Graph data -->
     <meta property="og:title" content="Page title" />
     <meta property="og:description" content="Page description" />
@@ -78,8 +95,12 @@
     <!-- Facebook image must be at least 600x315px -->
     <meta property="og:image" content="http://example.com/image.jpg" />
 
+
+
     <!-- Enable styling differentation between JavaScript and non-JavaScript enabled browsers -->
     <script>(function (el) { el.classList.remove('no-js'); }(document.documentElement));</script>
+
+
 
     <!-- Include stylesheets -->
     <link rel="stylesheet" href="css/normalize.css">
