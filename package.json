@@ -18,12 +18,16 @@
     "url": "https://github.com/ryanmorr/primer/issues"
   },
   "scripts": {
-    "test": "htmlhint src/index.html"
+    "test": "htmlhint src/index.html",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "htmlhint": "^0.9.13"
   },
   "dependencies": {
-    "npm": "^5.7.1"
-  }
+    "npm": "^5.7.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
